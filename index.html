@@ -4,13 +4,15 @@
         <title>My Diary</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://pagecdn.io/lib/easyfonts/noto-sans.css" rel="stylesheet" />
+        <link href="https://pagecdn.io/lib/easyfonts/indie-flower.css" rel="stylesheet" />
     </head>
     <body>
-        <h1>My Personal Diary</h1>
+        <h1 class="font-noto-sans">My Personal Diary</h1>
         <form id="diary-form" onsubmit="return false">
-            <textarea id="form-text-area" placeholder="Click here to start entry..." required>
+            <textarea id="form-text-area" placeholder="Click here to start entry...">
 
-            </textarea>
+            </textarea> <br />
             <button id="submit">Add Entry</button>
             <section class="diary-entries-section">
                 <div id="diary-entries-buttons"></div>

@@ -14,6 +14,7 @@ const getEntry = () => {
 
         const diaryEntry = document.createElement("p");
         diaryEntry.className = "single-entry";
+        diaryEntry.classList.add("font-indie-flower");
         diaryEntry.textContent = entryContent.value;
         diaryEntry.style.display = "none"
         entriesSection.appendChild(diaryEntry);

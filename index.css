@@ -1,3 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-    margin: 0;
+    line-height: 1;
+    text-align: center;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+    color: #16697A;
+    margin: 1em 0em;
+    font-size: 2em;
+}
+
+#form-text-area {
+    background-color: #FFA62B;
+    width: 30em;
+    height: 20em;
+    padding: 1em;
+    border: unset;
+    border-radius: 25px;
+    margin-bottom: 1em;
+}
+
+#form-text-area:focus {
+    outline: none;
+}
+
+#submit {
+    margin-left: 21em;
+    margin-bottom: 1em;
+    border: white solid 2px;
+    background-color: #FFA62B;
+    padding: 0.5em 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+#submit:hover {
+    border: #16697A solid 2px;
+}
+
+.diary-entries-section {
+    background: #16697A;
+    width: 26em;
+    min-height: 10em;
+    margin: 0 auto;
+    padding: 1em 1em;
+    border: unset;
+    border-radius: 25px;
+}
+
+#diary-entries-buttons {
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+.display-entry-button {
+    padding: 0.3em 1em;
+    margin: 0.5em;
+    border-radius: 10px;
+    border: unset;
+    cursor: pointer;
+    outline: none;
+}
+
+.display-entry-button:hover {
+    background: #FFA62B;
+}
+
+.single-entry {
+    color: white;
+    font-size: 1.6em;
+    word-wrap: break-word;
+    margin: 1em 0em;
 }
